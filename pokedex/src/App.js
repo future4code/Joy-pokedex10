@@ -1,10 +1,14 @@
+import React from "react"
+import AddDetailsPage from "./pages/DetailsPage/AddDetailsPage";
+import AddHomePage from "./pages/HomePage/AddHomePage";
+import AddPokedexPage from "./pages/PokedexPage/AddPokedexPage";
 
-import './App.css';
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Boa noite!</h1>
+    <div>
+     <AddDetailsPage/>
+     <AddHomePage/>
+     <AddPokedexPage/>
     </div>
   );
 }
