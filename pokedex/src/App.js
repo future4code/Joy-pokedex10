@@ -1,14 +1,11 @@
 import React from "react"
-import AddDetailsPage from "./pages/DetailsPage/AddDetailsPage";
-import AddHomePage from "./pages/HomePage/AddHomePage";
-import AddPokedexPage from "./pages/PokedexPage/AddPokedexPage";
+import Router from "./routes/Router";
+
 
 const App = () => {
   return (
     <div>
-     <AddDetailsPage/>
-     <AddHomePage/>
-     <AddPokedexPage/>
+      <Router/>
     </div>
   );
 }
